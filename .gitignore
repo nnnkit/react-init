@@ -3,5 +3,4 @@ TEST-App.xml
 npm-debug.log
 
 # Build artifacts
-dist/index.js
-dist/index.html
+dist

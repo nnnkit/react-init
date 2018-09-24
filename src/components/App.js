@@ -1,11 +1,19 @@
 import React, { Component } from "react";
-import '../styles/App.css';
+import '../styles/App.scss';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
+
+import { Second } from './Second';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <h1>React Init</h1>
+        <nav>
+          <Link to="/second">Second</Link>
+        </nav>
+        <div>
+          <Second />
+        </div>
       </div>
     );
   }
